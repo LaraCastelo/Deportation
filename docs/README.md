@@ -3,13 +3,13 @@
 ## Goals
 This project aims to answer key questions:
 
-*How many people were deported from the United States between 2020 and 2024.
+* How many people were deported from the United States between 2020 and 2024.
 
-*Which countries they came from.
+* Which countries they came from.
 
-*What legal grounds were used for these deportations.
+* What legal grounds were used for these deportations.
 
-*What patterns emerge from the data.
+* What patterns emerge from the data.
 
 ## Findings
 *More than half a million people were deported from the U.S. between October 2020 and September 2024.
