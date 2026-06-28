@@ -49,5 +49,5 @@ Creating a subset of Latin American countries and calculating their percentage o
 
 Grouping by allegation category to analyze the legal grounds for deportation.
 
-Live Story
+# Check out the Live Story
 https://laracastelo.github.io/Deportation/
