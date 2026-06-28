@@ -1,2 +1,2 @@
 # Deportation
-Projecto for Columbia Journalism School
+Project for Columbia Journalism School
