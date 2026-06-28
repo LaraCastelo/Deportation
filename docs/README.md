@@ -1,7 +1,7 @@
 ## 99% of U.S. Deportees Over Four Years Came From Latin America
 
 ## Goals
-This project aims to answer four key questions:
+This project aims to answer key questions:
 
 *How many people were deported from the United States between 2020 and 2024.
 
