@@ -51,9 +51,10 @@
             content: "";
             position: absolute;
             inset: 0;
-            background: rgba(0, 0, 0, 0.35); 
+            background: rgba(0, 0, 0, 0.35); /* ajuste aqui para mais ou menos escuro */
         }
 
+        /* GARANTIR QUE O TEXTO FIQUE ACIMA DO OVERLAY */
         .header.with-image-bg .content {
             position: relative;
             z-index: 1;
@@ -91,11 +92,11 @@
         }
 
         .footer {
-            background:lightgrey;
-            text-align:center ;
+            background: #ddc5c5;
+            text-align: center;
             font-size: 0.8em;
-            margin-top: 3em;
-            padding: 1em 0;
+            margin-top: 4em;
+            padding: 4em 0;
         }
 
         @media (max-width: 640px) {
@@ -113,54 +114,64 @@
 
 <body>
 
+    <!-- HEADER COM IMAGEM -->
     <div class="header with-image-bg">
         <div class="content">
-            <h1>99% of U.S. Deportees Over Four Years Came From Latin America</h1>
-            <p class="subhead">More than half a million people were deported between 2020 and 2024 — most without criminal convictions. Mexico alone accounted for 44 percent.
-</p>
+            <h1>U.S. Deportations Have Increased 12x in Four Years</h1>
+            <p class="subhead">More than half a million people were deported from the U.S. between 2020 and 2024 — most without criminal convictions.</p>
         </div>
     </div>
 
-   
+    <!-- CONTEÚDO -->
     <div class="content">
 
         <div class="byline">
-            <p>By <a href="https://github.com/LaraCastelo">Lara Castelo</a></p>
+            <p>By <a href="https://github.com/LaraCastelo">Lara Castelo </a> | June 28, 2026
+</p>
         </div>
 
-<p>The fear of deportation has become a defining feature of the experience for many Latin Americans arriving in the United States. 
-</p>
-<p>And that’s not a coincidence. Political speeches, policy changes and law‑enforcement actions have contributed to a broader message perceived by many: that they are not welcome.
-</p>
-<p>Data helps illustrate how that sentiment plays out in practice. Recent deportation figures show a pattern that aligns closely with these concerns.
-</p>
-<p>Between October 2020 and September 2024, more than <b>half a million people from 44 countries</b> were deported from the U.S., according to data from the Immigration and Customs Enforcement (ICE).
-</p>
+        <p>As a Latin American woman arriving in the United States in 2026, one fear crossed my mind: <b>deportation</b>. Even with a visa and a short-term stay, I wasn’t immune to that anxiety — and I know I’m not alone.</p>
 
-<p> The total is roughly equivalent to the population of Atlanta, Georgia.</p>
+        <p>From political speeches to policy shifts and police actions, the United States has sent a clear message to many Latin Americans: you are not welcome.</p>
 
-<iframe title="Which Countries Do Deportees Come From?" aria-label="Choropleth map" id="datawrapper-chart-IpM9e" src="https://datawrapper.dwcdn.net/IpM9e/4/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="475" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+        <p>To understand how that sentiment translates into reality, I turned to data. And, as it turns out, the numbers confirm the feeling.</p>
 
-<p>Nearly all of those deportees <b>— 99 percent —</b> were from Latin America. </p>
-<p>Mexico alone accounted for <b>44 percent </b>of all removals, underscoring the disproportionate impact on countries closest to the U.S. border.</p>
-<iframe title="Top 10 Citizenship Countries in U.S. Deportations" aria-label="Bullet Bars" id="datawrapper-chart-461Fq" src="https://datawrapper.dwcdn.net/461Fq/6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="369" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script><p>The volume of deportations also rose sharply during this four‑year period. ICE data shows that removals increased twelvefold between late 2020 and 2024.</p>
-<iframe title="US deportations per year" aria-label="Line chart" id="datawrapper-chart-WN2Ar" src="https://datawrapper.dwcdn.net/WN2Ar/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="446" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>        <p>But these are only the recorded figures — <b>the real numbers are likely much higher</b>.</p>
+        <p>According to the Department of Homeland Security (DHS), <b>more than half a million people from 44 countries</b> were officially deported from the United States between October 2020 and September 2024.</p>
 
-<p>ICE records only include dates on which more than ten people were deported, meaning smaller removals were not counted.</p>
-<h2>Motives behind deportations in the U.S.</h2>
-<p>In the United States, people can be deported for reasons ranging from visa overstays to criminal convictions that trigger mandatory removal.</p>
+        <p>That’s the equivalent of more than the entire population of Atlanta.</p>
 
-<p>Yet <b>only 35%</b> of people deported during this period had any criminal record. Most were removed for administrative or immigration‑related reasons.</p>
+        <!-- GRÁFICO 1 -->
+        <iframe title="US deportations per year" src="https://datawrapper.dwcdn.net/WN2Ar/5/" height="446"></iframe>
 
-<iframe title="What Are the Grounds for Deportation in the U.S." aria-label="Column Chart" id="datawrapper-chart-944HP" src="https://datawrapper.dwcdn.net/944HP/7/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="560" data-external="1"></iframe><script type="text/javascript">(function(){function e(){window.addEventListener(`message`,function(e){if(e.data[`datawrapper-height`]!==void 0){var t=document.querySelectorAll(`iframe`);for(var n in e.data[`datawrapper-height`])for(var r=0,i;i=t[r];r++)if(i.contentWindow===e.source){var a=e.data[`datawrapper-height`][n]+`px`;i.style.height=a}}})}e()})();</script>
+        <p>But these are only the recorded figures — <b>the real numbers are likely much higher</b>.</p>
 
-<div class="footer">
+        <p>The DHS database only includes dates when more than ten people were deported, meaning smaller-scale removals were not counted.</p>
+
+        <h2>Who Is Targeted by U.S. Deportations</h2>
+
+        <p>Data reveals a clear pattern: U.S. deportation policies disproportionately affect Latin American communities, especially those closest to the border, such as Mexicans.</p>
+
+        <!-- MAPA -->
+        <iframe title="Which countries Do Deportees Come From?" src="https://datawrapper.dwcdn.net/IpM9e/1/" height="475"></iframe>
+
+        <!-- TOP 10 -->
+        <iframe title="Top 10 citizenship countries in U.S. deportations" src="https://datawrapper.dwcdn.net/461Fq/1/" height="596"></iframe>
+
+        <h2>Most Deportees Don't Have Criminal Records</h2>
+
+        <p>In the United States, people can be deported for reasons ranging from visa overstays to criminal convictions that trigger mandatory removal.</p>
+
+        <p>Yet <b>only 35%</b> of people deported during this period had any criminal record. Most were removed for administrative or immigration‑related reasons.</p>
+
+        <!-- GRÁFICO CRIMES -->
+        <iframe title="Reasons for Deportations from the U.S." src="https://datawrapper.dwcdn.net/944HP/4/" height="560"></iframe>
+
+    </div>
+
+    <div class="footer">
         <div class="content">
-            <p>You can find <b>methodology</b> and the <b>code</b> for this project on GitHub:  
-                <a href="https://github.com/LaraCastelo/Deportation/tree/main/docs">github.com/LaraCastelo.</a>
-            </p>
-            <p>This page is a project designed for the <b>Lede Data Journalism Program</b> at Columbia University in June 2026.</p>
-
+            <p>This page is a project designed for the Lede Data Journalism Program at Columbia University in June 2026. The analysis was conducted in Python using Pandas inside a Jupyter Notebook. Find methodology and the code on GitHub:  
+                <a href="https://github.com/LaraCastelo">github.com/LaraCastelo</a></p>
         </div>
     </div>
 
