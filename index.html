@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>U.S. Deportations</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-size: 20px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            text-rendering: optimizeLegibility;
+            background-color: lightgrey;
+        }
+
+        .content {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        /* HEADER COM IMAGEM DE FUNDO */
+        .header.with-image-bg {
+            position: relative;
+            background-image: url('Imagens/chris-robert-1MkR9ehe9Fg-unsplash.jpg');
+            background-size: cover;
+            background-position: center;
+            min-height: 60svh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            color: white;
+            text-shadow: 0px 0px 30px black, 0px 0px 10px rgba(0, 0, 0, 0.5);
+            margin-bottom: 2em;
+        }
+
+        /* OVERLAY PARA ESCURECER A IMAGEM */
+        .header.with-image-bg::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.35); /* ajuste aqui para mais ou menos escuro */
+        }
+
+        /* GARANTIR QUE O TEXTO FIQUE ACIMA DO OVERLAY */
+        .header.with-image-bg .content {
+            position: relative;
+            z-index: 1;
+        }
+
+        h1 {
+            font-family: 'Lora', Georgia, serif;
+            font-weight: bold;
+            font-size: 3em;
+            line-height: 1.1;
+            margin-bottom: 0.3em;
+        }
+
+        .subhead {
+            font-family: 'Lora', Georgia, serif;
+            font-size: 1.3em;
+            line-height: 1.3;
+        }
+
+        p {
+            line-height: 1.6;
+            margin: 0;
+            padding-bottom: 1.2em;
+        }
+
+        /* GRÁFICOS DATAWRAPPER — CORREÇÃO DO TAMANHO */
+ iframe {
+  width: 100% !important;
+  max-width: 100% !important;
+  min-width: 100% !important;
+  border: none;
+  display: block;
+  margin: 1.5em 0 1.8 em 0; /* respiro maior embaixo, mantém em cima */
+}
+
+        .footer {
+            background: #ddc5c5;
+            text-align: center;
+            font-size: 0.8em;
+            margin-top: 4em;
+            padding: 4em 0;
+        }
+
+        @media (max-width: 640px) {
+            body {
+                font-size: 18px;
+            }
+
+            .content {
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER COM IMAGEM -->
+    <div class="header with-image-bg">
+        <div class="content">
+            <h1>99% of U.S. Deportees Over Four Years Came From Latin America</h1>
+            <p class="subhead">More than half a million people were deported between 2020 and 2024 — most without criminal convictions. Mexico alone accounted for 44 percent.
+</p>
+        </div>
+    </div>
+
+    <!-- CONTEÚDO -->
+    <div class="content">
+
+        <div class="byline">
+            <p>By <a href="https://github.com/LaraCastelo">Lara Castelo </a> | June 28, 2026
+</p>
+        </div>
+
+<p>The fear of deportation has become a defining feature of the experience for many Latin Americans arriving in the United States. 
+</p>
+<p>And that’s not a coincidence. Political speeches, policy changes and law‑enforcement actions have contributed to a broader message perceived by many: that <b>they are not welcome</b>.
+</p>
+<p>Data helps illustrate how that sentiment plays out in practice. Recent deportation figures show a pattern that aligns closely with these concerns.
+</p>
+
+<p>Between October 2020 and September 2024, <b>more than half a million people from 44 countries </b>were deported from the U.S., according to data from the U.S. Immigration and Customs Enforcement (ICE). 
+</p>
+
+
+        <iframe title="Which countries Do Deportees Come From?" src="https://datawrapper.dwcdn.net/IpM9e/1/" height="475"></iframe>
+
+<p><p> <b>Ninety‑nine percent </b>of them were from Latin America, with Mexico alone accounting for 44 percent of all removals. 
+</p>
+
+
+<p>Not only the main target, but the increase in the sentiment of fear is also related to the volume of deportations which also rose abruptly between Oct 2020 and September 2024. 
+</p>
+        <iframe title="US deportations per year" src="https://datawrapper.dwcdn.net/WN2Ar/5/" height="446"></iframe>
+
+        <p>The total of deportation is almost equivalent to the entire population of Atlanta (Georgia).
+</p>
+    
+        <p>But these are only the recorded figures — <b>the real numbers are likely much higher</b>.</p>
+
+        <p>The DHS database only includes dates when more than ten people were deported, meaning smaller-scale removals were not counted.</p>
+
+        <!-- TOP 10 -->
+        <h2>Most Deportees Don't Have Criminal Records</h2>
+
+        <p>In the United States, people can be deported for reasons ranging from visa overstays to criminal convictions that trigger mandatory removal.</p>
+
+        <p>Yet <b>only 35%</b> of people deported during this period had any criminal record. Most were removed for administrative or immigration‑related reasons.</p>
+
+        <!-- GRÁFICO CRIMES -->
+        <iframe title="Reasons for Deportations from the U.S." src="https://datawrapper.dwcdn.net/944HP/4/" height="560"></iframe>
+
+    </div>
+
+    <div class="footer">
+        <div class="content">
+            <p>This page is a project designed for the Lede Data Journalism Program at Columbia University in June 2026. The analysis was conducted in Python using Pandas inside a Jupyter Notebook. Find methodology and the code on GitHub:  
+                <a href="https://github.com/LaraCastelo">github.com/LaraCastelo</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
+
